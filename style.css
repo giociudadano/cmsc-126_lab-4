@@ -7,13 +7,13 @@ section {
     text-align: center;
 }
 
-.game--title {
+.game-title {
     font-size: 50px;
     color: white;
     margin: 70px auto 30px;
 }
 
-.game--container {
+.game-container {
     display: grid;
     grid-template-columns: repeat(3, auto);
     width: 310px;
@@ -31,13 +31,13 @@ section {
     font-size: 50px;
 }
 
-.game--status {
+.game-status {
     font-size: 30px;
     color: white;
     margin: 30px auto;
 }
 
-.game--restart {
+.game-restart {
     background-color: #303d4f;
     width: 150px;
     height: 50px;
