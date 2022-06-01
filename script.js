@@ -65,7 +65,7 @@ function handleResultValidation() {
 
 function handleCellClick(clickedCellEvent) {
     const clickedCell = clickedCellEvent.target;
-    const clickedCellIndex = parseInt(clickedCell.getAttribute('data-cell-index'));
+    const clickedCellIndex = parseInt(clickedCell.getAttribute('cell-index'));
 
     if (gameState[clickedCellIndex] !== "" || !gameActive) {
         return;
